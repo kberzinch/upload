@@ -20,7 +20,7 @@ for ($i = 0; $i < $count; $i++) {
                 echo $filename." uploaded<br>";
             }
         } else {
-             echo "Error uploading ".$filename."<br>";
+            echo "Error uploading ".$filename."<br>";
         }
     }
 }
