@@ -10,7 +10,7 @@ if ($count === 0) {
 
 for ($i = 0; $i < $count; $i++) {
     $filename = basename($_FILES["file"]["name"][$i]);
-    $target = $config['target_directory'] . $filename;
+    $target = $config['target_directory'] ."/". $filename;
     if (file_exists($target)) {
         echo $filename . " already exists on the server.";
     } else {
