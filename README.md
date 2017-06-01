@@ -1,5 +1,5 @@
 # upload
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/kberzinch/deploy/master/LICENSE.md) [![StyleCI badge](https://styleci.io/repos/92993554/shield)](https://styleci.io/repos/92993554)
+[![GitHub license](https://img.shields.io/github/license/kberzinch/upload.svg?style=flat-square)](https://raw.githubusercontent.com/kberzinch/upload/master/LICENSE.md) [![StyleCI badge](https://styleci.io/repos/92993554/shield)](https://styleci.io/repos/92993554)
 
 Dead-simple file dropbox.
 
