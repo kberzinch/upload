@@ -2,7 +2,9 @@
 
 require_once "config.php";
 
-if (count($_FILES["file"]["name"]) === 0) {
+$count = count($_FILES["file"]["name"]);
+
+if ($count === 0) {
     die("No files selected.");
 }
 
