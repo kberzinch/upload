@@ -17,7 +17,7 @@ for ($i = 0; $i < $count; $i++) {
         if (move_uploaded_file($_FILES["file"]["tmp_name"][$i], $target)) {
             if ($config['files_are_accessible']) {
                 echo "<a href=\"".$config['url']."/".$config['target_directory']
-                    ."/\"".$filename."\">".$filename."</a><br>";
+                    ."/".$filename."\">".$filename."</a><br>";
             } else {
                 echo $filename." uploaded<br>";
             }
